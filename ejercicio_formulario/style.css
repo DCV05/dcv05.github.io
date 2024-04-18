@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(images.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.formulario {
+    background-color: #ffffff;
+    margin-top: 100px;
+    border-radius: 2%;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #1a2537;
+    font-size: 30px;
+}
+
+.contenedor {
+    width: 100%;
+    padding: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    text-align: left;
+    font-size: 1.2em;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 2%;
+}
+
+.icon {
+    margin-left: 5px;
+    padding-top: 12px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.submit_button {
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    background-color: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: poiner;
+}
+
+.submit_button:hover {
+    background-color: cadetblue;
+}
+
+p {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600px;
+}
+
+.link:hover {
+    color: cadetblue;
+}
+
+@media( min-width: 768px ) {
+    .formulario {
+        margin-top: 150px;
+        width: 500px;
+        margin: auto;
+        border-radius: 2%;
+    }
+}
